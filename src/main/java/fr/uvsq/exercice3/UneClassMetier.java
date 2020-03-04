@@ -7,7 +7,9 @@ public class UneClassMetier {
 		
 	}
 	
-	
+	/**
+	 * 
+	 */
 	public void uneMethodeMetier() {
 		afficheMetier.afficheDebut(); // log message
 		//Traitements métiers
