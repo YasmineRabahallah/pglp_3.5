@@ -11,9 +11,10 @@ import org.slf4j.LoggerFactory;
 
 public class AfficheMetier implements MessageLog {
   /**
+   * methode pour affichage.
    * @param message le message qu'on veux l'afficher.
    */
-  public void messagelog( final String message) {
+  public void messagelog(final String message) {
     Logger logger = LoggerFactory.getLogger(AfficheMetier.class);
     logger.info(message);
   }
